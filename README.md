@@ -17,7 +17,7 @@ The index is **not authoritative** — it's a discovery aid. Anyone can publish 
 
    ```bash
    npm install -g ajv-cli ajv-formats
-   ajv validate -s schema.json -d plugins.json -c ajv-formats
+   ajv validate --spec=draft2020 -s schema.json -d plugins.json -c ajv-formats
    ```
 
 ### Example entry
