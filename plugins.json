@@ -1,0 +1,85 @@
+{
+  "$schema": "./schema.json",
+  "registry_version": "0.1.0",
+  "updated_at": "2026-05-18T00:00:00Z",
+  "plugins": [
+    {
+      "name": "animus-subject-linear",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-linear",
+      "latest_tag": "v0.1.0",
+      "description": "Linear (linear.app) subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-linear",
+      "license": "MIT",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "linear", "issue-tracking"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-linear"
+    },
+    {
+      "name": "animus-provider-oai",
+      "kind": "provider",
+      "repo": "launchapp-dev/animus-provider-oai",
+      "latest_tag": "v0.1.0",
+      "description": "OpenAI-compatible HTTP API provider plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-provider-oai",
+      "license": "MIT",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["provider", "openai", "http", "llm"],
+      "install_hint": "animus plugin install launchapp-dev/animus-provider-oai"
+    },
+    {
+      "name": "animus-provider-claude",
+      "kind": "provider",
+      "repo": "launchapp-dev/animus-provider-claude",
+      "latest_tag": "v0.1.0",
+      "description": "Claude Code CLI provider plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-provider-claude",
+      "license": "MIT",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["provider", "claude", "anthropic", "cli-wrapper", "llm"],
+      "install_hint": "animus plugin install launchapp-dev/animus-provider-claude"
+    },
+    {
+      "name": "animus-provider-codex",
+      "kind": "provider",
+      "repo": "launchapp-dev/animus-provider-codex",
+      "latest_tag": "v0.1.0",
+      "description": "OpenAI Codex CLI provider plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-provider-codex",
+      "license": "MIT",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["provider", "codex", "openai", "cli-wrapper", "llm"],
+      "install_hint": "animus plugin install launchapp-dev/animus-provider-codex"
+    },
+    {
+      "name": "animus-provider-gemini",
+      "kind": "provider",
+      "repo": "launchapp-dev/animus-provider-gemini",
+      "latest_tag": "v0.1.0",
+      "description": "Google Gemini CLI provider plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-provider-gemini",
+      "license": "MIT",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["provider", "gemini", "google", "cli-wrapper", "llm"],
+      "install_hint": "animus plugin install launchapp-dev/animus-provider-gemini"
+    },
+    {
+      "name": "animus-provider-opencode",
+      "kind": "provider",
+      "repo": "launchapp-dev/animus-provider-opencode",
+      "latest_tag": "v0.1.0",
+      "description": "OpenCode CLI provider plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-provider-opencode",
+      "license": "MIT",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["provider", "opencode", "cli-wrapper", "llm"],
+      "install_hint": "animus plugin install launchapp-dev/animus-provider-opencode"
+    }
+  ]
+}

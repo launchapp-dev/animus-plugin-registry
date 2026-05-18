@@ -1,0 +1,21 @@
+name: Validate registry
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli ajv-formats
+      - name: Validate plugins.json against schema
+        run: ajv validate -s schema.json -d plugins.json -c ajv-formats
+      - name: Lint JSON files
+        run: |
+          python3 -m json.tool plugins.json > /dev/null
+          python3 -m json.tool schema.json > /dev/null
