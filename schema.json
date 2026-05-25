@@ -52,7 +52,15 @@
         "kind": {
           "type": "string",
           "description": "Plugin kind.",
-          "enum": ["subject_backend", "provider", "trigger_backend"]
+          "enum": [
+            "subject_backend",
+            "provider",
+            "trigger_backend",
+            "transport_backend",
+            "log_storage_backend",
+            "testkit",
+            "template"
+          ]
         },
         "repo": {
           "type": "string",
