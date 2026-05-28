@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-25T00:00:00Z",
+  "updated_at": "2026-05-28T00:00:00Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -82,6 +82,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-provider-oai-agent"
     },
     {
+      "name": "animus-provider-ollama",
+      "kind": "provider",
+      "repo": "launchapp-dev/animus-provider-ollama",
+      "latest_tag": "v0.1.0",
+      "description": "Ollama local model provider plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-provider-ollama",
+      "license": "MIT",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["provider", "ollama", "local-llm", "openai-compatible", "llm"],
+      "install_hint": "animus plugin install launchapp-dev/animus-provider-ollama"
+    },
+    {
       "name": "animus-subject-default",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-default",
@@ -119,6 +132,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "linear", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-linear"
+    },
+    {
+      "name": "animus-subject-github",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-github",
+      "latest_tag": "v0.1.0",
+      "description": "GitHub Issues and pull requests subject backend for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-github",
+      "license": "MIT",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "github", "issues", "pull-requests", "issue-tracking"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-github"
     },
     {
       "name": "animus-subject-sqlite",
@@ -210,6 +236,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["trigger", "slack", "chat"],
       "install_hint": "animus plugin install launchapp-dev/animus-trigger-slack"
+    },
+    {
+      "name": "animus-trigger-cron",
+      "kind": "trigger_backend",
+      "repo": "launchapp-dev/animus-trigger-cron",
+      "latest_tag": "v0.1.0",
+      "description": "Cron and fixed-interval trigger backend for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-trigger-cron",
+      "license": "MIT",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["trigger", "cron", "schedule", "timer"],
+      "install_hint": "animus plugin install launchapp-dev/animus-trigger-cron"
     },
     {
       "name": "animus-log-storage-file",
