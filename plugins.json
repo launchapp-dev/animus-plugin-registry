@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T01:43:12Z",
+  "updated_at": "2026-05-29T02:15:44Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -147,6 +147,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-asana"
     },
     {
+      "name": "animus-subject-clickup",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-clickup",
+      "latest_tag": "v0.1.0",
+      "description": "ClickUp tasks subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-clickup",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "clickup", "tasks", "project-management", "issue-tracking"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-clickup"
+    },
+    {
       "name": "animus-subject-github",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-github",
@@ -184,6 +197,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "jira", "issues", "atlassian", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-jira"
+    },
+    {
+      "name": "animus-subject-notion",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-notion",
+      "latest_tag": "v0.1.0",
+      "description": "Notion pages subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-notion",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "notion", "pages", "database", "docs"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-notion"
     },
     {
       "name": "animus-subject-trello",
