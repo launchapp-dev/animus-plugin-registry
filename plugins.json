@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T18:59:38Z",
+  "updated_at": "2026-05-29T19:16:47Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1252,6 +1252,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-osv-vulnerabilities"
     },
     {
+      "name": "animus-subject-orcid-researchers",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-orcid-researchers",
+      "latest_tag": "v0.1.0",
+      "description": "ORCID researcher search subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-orcid-researchers",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "orcid", "researchers", "scholarly", "identity"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-orcid-researchers"
+    },
+    {
       "name": "animus-subject-pagerduty",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-pagerduty",
@@ -1653,6 +1666,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "wikidata", "entities", "knowledge-base", "semantic-web"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-wikidata-entities"
+    },
+    {
+      "name": "animus-subject-wikipedia-pages",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-wikipedia-pages",
+      "latest_tag": "v0.1.0",
+      "description": "Wikipedia page search subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-wikipedia-pages",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "wikipedia", "pages", "knowledge", "wikimedia"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-wikipedia-pages"
     },
     {
       "name": "animus-subject-worldbank-indicators",
