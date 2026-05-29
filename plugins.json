@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T10:34:57Z",
+  "updated_at": "2026-05-29T10:51:08Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -316,6 +316,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-cloudflare-pages"
     },
     {
+      "name": "animus-subject-conda-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-conda-versions",
+      "latest_tag": "v0.1.0",
+      "description": "Conda channel package versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-conda-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "conda", "conda-forge", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-conda-versions"
+    },
+    {
       "name": "animus-subject-crates-versions",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-crates-versions",
@@ -613,6 +626,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "maven", "java", "packages", "versions"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-maven-central-versions"
+    },
+    {
+      "name": "animus-subject-metacpan-releases",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-metacpan-releases",
+      "latest_tag": "v0.1.0",
+      "description": "MetaCPAN distribution releases subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-metacpan-releases",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "metacpan", "cpan", "perl", "packages", "releases"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-metacpan-releases"
     },
     {
       "name": "animus-subject-notion",
