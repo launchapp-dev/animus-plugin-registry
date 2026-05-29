@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T22:25:29Z",
+  "updated_at": "2026-05-29T22:40:38Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1419,6 +1419,32 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "openfda", "device-510k", "clearances", "health"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openfda-device-510k"
+    },
+    {
+      "name": "animus-subject-openfda-device-classification",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openfda-device-classification",
+      "latest_tag": "v0.1.0",
+      "description": "openFDA Device Classification subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openfda-device-classification",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openfda", "device-classification", "product-codes", "health"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openfda-device-classification"
+    },
+    {
+      "name": "animus-subject-openfda-device-pma",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openfda-device-pma",
+      "latest_tag": "v0.1.0",
+      "description": "openFDA Device PMA approvals subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openfda-device-pma",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openfda", "device-pma", "approvals", "health"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openfda-device-pma"
     },
     {
       "name": "animus-subject-openfoodfacts-products",
