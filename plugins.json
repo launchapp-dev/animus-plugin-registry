@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T05:09:25Z",
+  "updated_at": "2026-05-29T05:25:17Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -251,6 +251,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-github"
     },
     {
+      "name": "animus-subject-gitea",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-gitea",
+      "latest_tag": "v0.1.0",
+      "description": "Gitea issues subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-gitea",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "gitea", "issues", "self-hosted", "issue-tracking"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-gitea"
+    },
+    {
       "name": "animus-subject-gitlab",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-gitlab",
@@ -340,6 +353,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "opsgenie", "alerts", "on-call", "incident-management"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-opsgenie"
+    },
+    {
+      "name": "animus-subject-openproject",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openproject",
+      "latest_tag": "v0.1.0",
+      "description": "OpenProject work packages subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openproject",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openproject", "work-packages", "project-management", "issue-tracking"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openproject"
     },
     {
       "name": "animus-subject-pagerduty",
