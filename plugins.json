@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T08:18:41Z",
+  "updated_at": "2026-05-29T08:30:45Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -160,6 +160,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-alertmanager"
     },
     {
+      "name": "animus-subject-argocd-applications",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-argocd-applications",
+      "latest_tag": "v0.1.0",
+      "description": "Argo CD applications subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-argocd-applications",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "argocd", "applications", "gitops", "deployment"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-argocd-applications"
+    },
+    {
       "name": "animus-subject-asana",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-asana",
@@ -314,6 +327,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "freshdesk", "tickets", "support", "helpdesk"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-freshdesk"
+    },
+    {
+      "name": "animus-subject-fly-machines",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-fly-machines",
+      "latest_tag": "v0.1.0",
+      "description": "Fly Machines subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-fly-machines",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "fly", "machines", "deployment", "infrastructure"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-fly-machines"
     },
     {
       "name": "animus-subject-github",
