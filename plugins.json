@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T09:25:27Z",
+  "updated_at": "2026-05-29T09:40:09Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -407,6 +407,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-github-releases"
     },
     {
+      "name": "animus-subject-go-module-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-go-module-versions",
+      "latest_tag": "v0.1.0",
+      "description": "Go module versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-go-module-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "go", "modules", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-go-module-versions"
+    },
+    {
       "name": "animus-subject-gitea",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-gitea",
@@ -626,6 +639,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "pagerduty", "incidents", "on-call", "incident-management"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-pagerduty"
+    },
+    {
+      "name": "animus-subject-packagist-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-packagist-versions",
+      "latest_tag": "v0.1.0",
+      "description": "Packagist package versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-packagist-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "packagist", "composer", "php", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-packagist-versions"
     },
     {
       "name": "animus-subject-plane",
