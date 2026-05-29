@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T07:37:19Z",
+  "updated_at": "2026-05-29T07:48:39Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -353,6 +353,32 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "gitlab", "issues", "devops", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-gitlab"
+    },
+    {
+      "name": "animus-subject-gitlab-pipelines",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-gitlab-pipelines",
+      "latest_tag": "v0.1.0",
+      "description": "GitLab CI/CD pipelines subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-gitlab-pipelines",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "gitlab", "pipelines", "ci", "devops"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-gitlab-pipelines"
+    },
+    {
+      "name": "animus-subject-gitlab-vulnerabilities",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-gitlab-vulnerabilities",
+      "latest_tag": "v0.1.0",
+      "description": "GitLab vulnerabilities subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-gitlab-vulnerabilities",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "gitlab", "vulnerabilities", "security", "devsecops"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-gitlab-vulnerabilities"
     },
     {
       "name": "animus-subject-glpi",
