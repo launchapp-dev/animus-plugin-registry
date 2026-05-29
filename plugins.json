@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T04:54:05Z",
+  "updated_at": "2026-05-29T05:09:25Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -355,6 +355,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-pagerduty"
     },
     {
+      "name": "animus-subject-plane",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-plane",
+      "latest_tag": "v0.1.0",
+      "description": "Plane work items subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-plane",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "plane", "work-items", "project-management", "issue-tracking"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-plane"
+    },
+    {
       "name": "animus-subject-redmine",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-redmine",
@@ -405,6 +418,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "shortcut", "stories", "project-management", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-shortcut"
+    },
+    {
+      "name": "animus-subject-taiga",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-taiga",
+      "latest_tag": "v0.1.0",
+      "description": "Taiga issues subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-taiga",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "taiga", "issues", "project-management", "open-source"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-taiga"
     },
     {
       "name": "animus-subject-todoist",
