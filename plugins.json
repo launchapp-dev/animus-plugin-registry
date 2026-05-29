@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T20:03:58Z",
+  "updated_at": "2026-05-29T20:19:41Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -654,6 +654,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-endoflife-cycles"
     },
     {
+      "name": "animus-subject-ensembl-genes",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-ensembl-genes",
+      "latest_tag": "v0.1.0",
+      "description": "Ensembl genes subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-ensembl-genes",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "ensembl", "genes", "genomics", "biology"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-ensembl-genes"
+    },
+    {
       "name": "animus-subject-europepmc-publications",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-europepmc-publications",
@@ -730,6 +743,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "gbif", "occurrences", "biodiversity", "species"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-gbif-occurrences"
+    },
+    {
+      "name": "animus-subject-gbif-species",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-gbif-species",
+      "latest_tag": "v0.1.0",
+      "description": "GBIF species taxonomy subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-gbif-species",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "gbif", "species", "taxonomy", "biodiversity"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-gbif-species"
     },
     {
       "name": "animus-subject-github",
