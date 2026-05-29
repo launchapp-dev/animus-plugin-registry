@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T12:23:19Z",
+  "updated_at": "2026-05-29T12:45:37Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -418,6 +418,32 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "debian", "sources", "packages", "linux"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-debian-source-versions"
+    },
+    {
+      "name": "animus-subject-depsdev-package-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-depsdev-package-versions",
+      "latest_tag": "v0.1.0",
+      "description": "deps.dev package versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-depsdev-package-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "depsdev", "packages", "versions", "supply-chain"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-depsdev-package-versions"
+    },
+    {
+      "name": "animus-subject-depsdev-project-package-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-depsdev-project-package-versions",
+      "latest_tag": "v0.1.0",
+      "description": "deps.dev project package versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-depsdev-project-package-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "depsdev", "projects", "attestations", "supply-chain"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-depsdev-project-package-versions"
     },
     {
       "name": "animus-subject-dockerhub-tags",
