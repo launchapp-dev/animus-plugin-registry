@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T09:11:17Z",
+  "updated_at": "2026-05-29T09:25:27Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -537,6 +537,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-monday"
     },
     {
+      "name": "animus-subject-maven-central-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-maven-central-versions",
+      "latest_tag": "v0.1.0",
+      "description": "Maven Central versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-maven-central-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "maven", "java", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-maven-central-versions"
+    },
+    {
       "name": "animus-subject-notion",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-notion",
@@ -561,6 +574,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "npm", "packages", "versions", "registry"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-npm-versions"
+    },
+    {
+      "name": "animus-subject-nuget-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-nuget-versions",
+      "latest_tag": "v0.1.0",
+      "description": "NuGet package versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-nuget-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "nuget", "dotnet", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-nuget-versions"
     },
     {
       "name": "animus-subject-opsgenie",
