@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T05:38:51Z",
+  "updated_at": "2026-05-29T05:56:19Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -186,6 +186,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-bitbucket"
     },
     {
+      "name": "animus-subject-buildkite",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-buildkite",
+      "latest_tag": "v0.1.0",
+      "description": "Buildkite builds subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-buildkite",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "buildkite", "builds", "ci", "delivery"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-buildkite"
+    },
+    {
       "name": "animus-subject-bugzilla",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-bugzilla",
@@ -197,6 +210,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "bugzilla", "bugs", "issue-tracking", "open-source"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-bugzilla"
+    },
+    {
+      "name": "animus-subject-circleci",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-circleci",
+      "latest_tag": "v0.1.0",
+      "description": "CircleCI pipelines subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-circleci",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "circleci", "pipelines", "ci", "delivery"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-circleci"
     },
     {
       "name": "animus-subject-clickup",
