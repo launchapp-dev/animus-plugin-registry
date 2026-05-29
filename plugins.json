@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T07:48:39Z",
+  "updated_at": "2026-05-29T08:01:36Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -537,6 +537,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-redmine"
     },
     {
+      "name": "animus-subject-render-deploys",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-render-deploys",
+      "latest_tag": "v0.1.0",
+      "description": "Render deploys subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-render-deploys",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "render", "deploys", "paas", "deployment"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-render-deploys"
+    },
+    {
       "name": "animus-subject-salesforce",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-salesforce",
@@ -652,6 +665,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "trello", "cards", "kanban", "project-management"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-trello"
+    },
+    {
+      "name": "animus-subject-vercel-deployments",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-vercel-deployments",
+      "latest_tag": "v0.1.0",
+      "description": "Vercel deployments subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-vercel-deployments",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "vercel", "deployments", "paas", "deployment"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-vercel-deployments"
     },
     {
       "name": "animus-subject-wrike",
