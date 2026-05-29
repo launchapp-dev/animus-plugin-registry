@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T10:51:08Z",
+  "updated_at": "2026-05-29T11:03:59Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -329,6 +329,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-conda-versions"
     },
     {
+      "name": "animus-subject-cran-packages",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-cran-packages",
+      "latest_tag": "v0.1.0",
+      "description": "CRAN package index subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-cran-packages",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "cran", "r", "packages", "statistics"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-cran-packages"
+    },
+    {
       "name": "animus-subject-crates-versions",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-crates-versions",
@@ -522,6 +535,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "glpi", "tickets", "helpdesk", "it-service-management"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-glpi"
+    },
+    {
+      "name": "animus-subject-hackage-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-hackage-versions",
+      "latest_tag": "v0.1.0",
+      "description": "Hackage package versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-hackage-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "hackage", "haskell", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-hackage-versions"
     },
     {
       "name": "animus-subject-hexpm-releases",
