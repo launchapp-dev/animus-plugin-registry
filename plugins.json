@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T19:16:47Z",
+  "updated_at": "2026-05-29T19:31:01Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -966,6 +966,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-jira"
     },
     {
+      "name": "animus-subject-loc-photos",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-loc-photos",
+      "latest_tag": "v0.1.0",
+      "description": "Library of Congress photos subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-loc-photos",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "library-of-congress", "photos", "archives", "cultural-heritage"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-loc-photos"
+    },
+    {
       "name": "animus-subject-monday",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-monday",
@@ -1146,6 +1159,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "openalex", "scholarly", "research", "works", "citations"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openalex-works"
+    },
+    {
+      "name": "animus-subject-openbrewerydb-breweries",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openbrewerydb-breweries",
+      "latest_tag": "v0.1.0",
+      "description": "Open Brewery DB breweries subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openbrewerydb-breweries",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openbrewerydb", "breweries", "places", "local-business"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openbrewerydb-breweries"
     },
     {
       "name": "animus-subject-openfda-drug-events",
