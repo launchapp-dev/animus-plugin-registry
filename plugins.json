@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T01:30:18Z",
+  "updated_at": "2026-05-29T01:43:12Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -134,6 +134,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-linear"
     },
     {
+      "name": "animus-subject-asana",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-asana",
+      "latest_tag": "v0.1.0",
+      "description": "Asana tasks subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-asana",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "asana", "tasks", "project-management", "issue-tracking"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-asana"
+    },
+    {
       "name": "animus-subject-github",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-github",
@@ -171,6 +184,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "jira", "issues", "atlassian", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-jira"
+    },
+    {
+      "name": "animus-subject-trello",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-trello",
+      "latest_tag": "v0.1.0",
+      "description": "Trello cards subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-trello",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "trello", "cards", "kanban", "project-management"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-trello"
     },
     {
       "name": "animus-subject-zendesk",
