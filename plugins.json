@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T15:26:01Z",
+  "updated_at": "2026-05-29T16:07:28Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -197,6 +197,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "argocd", "applications", "gitops", "deployment"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-argocd-applications"
+    },
+    {
+      "name": "animus-subject-arxiv-papers",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-arxiv-papers",
+      "latest_tag": "v0.1.0",
+      "description": "arXiv papers subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-arxiv-papers",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "arxiv", "papers", "research", "preprints"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-arxiv-papers"
     },
     {
       "name": "animus-subject-artifacthub-versions",
@@ -1354,6 +1367,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "rss", "atom", "feeds", "monitoring"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-web-feed-items"
+    },
+    {
+      "name": "animus-subject-wikidata-entities",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-wikidata-entities",
+      "latest_tag": "v0.1.0",
+      "description": "Wikidata entities subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-wikidata-entities",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "wikidata", "entities", "knowledge-base", "semantic-web"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-wikidata-entities"
     },
     {
       "name": "animus-subject-wrike",
