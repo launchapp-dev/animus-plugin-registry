@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T19:31:01Z",
+  "updated_at": "2026-05-29T19:45:55Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -470,6 +470,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "datadog", "incidents", "observability", "incident-management"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-datadog"
+    },
+    {
+      "name": "animus-subject-datagov-datasets",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-datagov-datasets",
+      "latest_tag": "v0.1.0",
+      "description": "Data.gov catalog datasets subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-datagov-datasets",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "datagov", "datasets", "open-data", "government"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-datagov-datasets"
     },
     {
       "name": "animus-subject-debian-source-versions",
@@ -1029,6 +1042,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "metacpan", "cpan", "perl", "packages", "releases"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-metacpan-releases"
+    },
+    {
+      "name": "animus-subject-metmuseum-objects",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-metmuseum-objects",
+      "latest_tag": "v0.1.0",
+      "description": "Metropolitan Museum of Art collection object subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-metmuseum-objects",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "metmuseum", "collection", "art", "cultural-heritage"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-metmuseum-objects"
     },
     {
       "name": "animus-subject-musicbrainz-artists",
