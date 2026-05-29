@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T16:31:27Z",
+  "updated_at": "2026-05-29T16:49:03Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -327,6 +327,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "clickup", "tasks", "project-management", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-clickup"
+    },
+    {
+      "name": "animus-subject-clinicaltrials-studies",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-clinicaltrials-studies",
+      "latest_tag": "v0.1.0",
+      "description": "ClinicalTrials.gov studies subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-clinicaltrials-studies",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "clinicaltrials", "studies", "clinical-research", "health"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-clinicaltrials-studies"
     },
     {
       "name": "animus-subject-code-scanning",
@@ -1029,6 +1042,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "openalex", "scholarly", "research", "works", "citations"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openalex-works"
+    },
+    {
+      "name": "animus-subject-openlibrary-books",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openlibrary-books",
+      "latest_tag": "v0.1.0",
+      "description": "Open Library books subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openlibrary-books",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openlibrary", "books", "metadata", "library"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openlibrary-books"
     },
     {
       "name": "animus-subject-openproject",
