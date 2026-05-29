@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-28T00:00:00Z",
+  "updated_at": "2026-05-29T00:00:00Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -145,6 +145,32 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "github", "issues", "pull-requests", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-github"
+    },
+    {
+      "name": "animus-subject-zendesk",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-zendesk",
+      "latest_tag": "v0.1.0",
+      "description": "Zendesk Support ticket subject backend for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-zendesk",
+      "license": "MIT",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "zendesk", "tickets", "support"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-zendesk"
+    },
+    {
+      "name": "animus-subject-sentry",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-sentry",
+      "latest_tag": "v0.1.0",
+      "description": "Sentry issue subject backend for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-sentry",
+      "license": "MIT",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "sentry", "issues", "incidents", "observability"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-sentry"
     },
     {
       "name": "animus-subject-sqlite",
