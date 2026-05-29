@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T03:12:30Z",
+  "updated_at": "2026-05-29T03:24:46Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -173,6 +173,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-clickup"
     },
     {
+      "name": "animus-subject-datadog",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-datadog",
+      "latest_tag": "v0.1.0",
+      "description": "Datadog incidents subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-datadog",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "datadog", "incidents", "observability", "incident-management"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-datadog"
+    },
+    {
       "name": "animus-subject-freshdesk",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-freshdesk",
@@ -210,6 +223,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "gitlab", "issues", "devops", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-gitlab"
+    },
+    {
+      "name": "animus-subject-hubspot",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-hubspot",
+      "latest_tag": "v0.1.0",
+      "description": "HubSpot tickets subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-hubspot",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "hubspot", "tickets", "crm", "support"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-hubspot"
     },
     {
       "name": "animus-subject-jira",
