@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T02:59:43Z",
+  "updated_at": "2026-05-29T03:12:30Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -251,6 +251,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-notion"
     },
     {
+      "name": "animus-subject-opsgenie",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-opsgenie",
+      "latest_tag": "v0.1.0",
+      "description": "Opsgenie alerts subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-opsgenie",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "opsgenie", "alerts", "on-call", "incident-management"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-opsgenie"
+    },
+    {
       "name": "animus-subject-pagerduty",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-pagerduty",
@@ -262,6 +275,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "pagerduty", "incidents", "on-call", "incident-management"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-pagerduty"
+    },
+    {
+      "name": "animus-subject-servicenow",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-servicenow",
+      "latest_tag": "v0.1.0",
+      "description": "ServiceNow incidents subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-servicenow",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "servicenow", "incidents", "itsm", "service-management"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-servicenow"
     },
     {
       "name": "animus-subject-shortcut",
