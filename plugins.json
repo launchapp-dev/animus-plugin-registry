@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T06:08:35Z",
+  "updated_at": "2026-05-29T06:21:14Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -290,6 +290,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-github"
     },
     {
+      "name": "animus-subject-github-actions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-github-actions",
+      "latest_tag": "v0.1.0",
+      "description": "GitHub Actions workflow runs subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-github-actions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "github-actions", "workflow-runs", "ci", "delivery"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-github-actions"
+    },
+    {
       "name": "animus-subject-gitea",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-gitea",
@@ -522,6 +535,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "taiga", "issues", "project-management", "open-source"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-taiga"
+    },
+    {
+      "name": "animus-subject-teamcity",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-teamcity",
+      "latest_tag": "v0.1.0",
+      "description": "TeamCity builds subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-teamcity",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "teamcity", "builds", "ci", "delivery"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-teamcity"
     },
     {
       "name": "animus-subject-todoist",
