@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T13:22:06Z",
+  "updated_at": "2026-05-29T13:36:51Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -498,6 +498,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-ecosystems-advisories"
     },
     {
+      "name": "animus-subject-ecosystems-repository-commits",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-ecosystems-repository-commits",
+      "latest_tag": "v0.1.0",
+      "description": "ecosyste.ms repository commits subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-ecosystems-repository-commits",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "ecosystems", "repositories", "commits", "supply-chain"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-ecosystems-repository-commits"
+    },
+    {
       "name": "animus-subject-ecosystems-repository-issues",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-ecosystems-repository-issues",
@@ -522,6 +535,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "ecosystems", "repositories", "releases", "supply-chain"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-ecosystems-repository-releases"
+    },
+    {
+      "name": "animus-subject-ecosystems-sponsors-accounts",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-ecosystems-sponsors-accounts",
+      "latest_tag": "v0.1.0",
+      "description": "ecosyste.ms sponsors accounts subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-ecosystems-sponsors-accounts",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "ecosystems", "sponsors", "funding", "github"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-ecosystems-sponsors-accounts"
     },
     {
       "name": "animus-subject-endoflife-cycles",
