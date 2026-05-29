@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T17:36:38Z",
+  "updated_at": "2026-05-29T17:50:12Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1109,6 +1109,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openlibrary-books"
     },
     {
+      "name": "animus-subject-openmeteo-forecasts",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openmeteo-forecasts",
+      "latest_tag": "v0.1.0",
+      "description": "Open-Meteo weather forecasts subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openmeteo-forecasts",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "open-meteo", "weather", "forecasts", "meteorology"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openmeteo-forecasts"
+    },
+    {
       "name": "animus-subject-openproject",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-openproject",
@@ -1289,6 +1302,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "salesforce", "cases", "crm", "support"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-salesforce"
+    },
+    {
+      "name": "animus-subject-sec-edgar-filings",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-sec-edgar-filings",
+      "latest_tag": "v0.1.0",
+      "description": "SEC EDGAR company filings subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-sec-edgar-filings",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "sec", "edgar", "filings", "finance", "regulatory"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-sec-edgar-filings"
     },
     {
       "name": "animus-subject-secret-scanning",
