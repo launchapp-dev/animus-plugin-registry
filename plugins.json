@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T11:18:43Z",
+  "updated_at": "2026-05-29T11:32:18Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -171,6 +171,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "ansible", "galaxy", "collections", "automation", "versions"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-ansible-galaxy-versions"
+    },
+    {
+      "name": "animus-subject-archlinux-packages",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-archlinux-packages",
+      "latest_tag": "v0.1.0",
+      "description": "Arch Linux package search subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-archlinux-packages",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "archlinux", "pacman", "packages", "linux"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-archlinux-packages"
     },
     {
       "name": "animus-subject-argocd-applications",
@@ -379,6 +392,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "datadog", "incidents", "observability", "incident-management"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-datadog"
+    },
+    {
+      "name": "animus-subject-debian-source-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-debian-source-versions",
+      "latest_tag": "v0.1.0",
+      "description": "Debian source package versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-debian-source-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "debian", "sources", "packages", "linux"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-debian-source-versions"
     },
     {
       "name": "animus-subject-dockerhub-tags",
