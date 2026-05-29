@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T00:00:00Z",
+  "updated_at": "2026-05-29T01:04:07Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -275,6 +275,71 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["trigger", "cron", "schedule", "timer"],
       "install_hint": "animus plugin install launchapp-dev/animus-trigger-cron"
+    },
+    {
+      "name": "animus-trigger-discord",
+      "kind": "trigger_backend",
+      "repo": "launchapp-dev/animus-trigger-discord",
+      "latest_tag": "v0.1.1",
+      "description": "Discord mentions and DMs trigger backend with outbound message RPCs",
+      "homepage": "https://github.com/launchapp-dev/animus-trigger-discord",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["trigger", "discord", "chat"],
+      "install_hint": "animus plugin install launchapp-dev/animus-trigger-discord"
+    },
+    {
+      "name": "animus-trigger-email",
+      "kind": "trigger_backend",
+      "repo": "launchapp-dev/animus-trigger-email",
+      "latest_tag": "v0.1.2",
+      "description": "IMAP IDLE email trigger backend with SMTP outbound replies",
+      "homepage": "https://github.com/launchapp-dev/animus-trigger-email",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["trigger", "email", "imap", "smtp"],
+      "install_hint": "animus plugin install launchapp-dev/animus-trigger-email"
+    },
+    {
+      "name": "animus-trigger-sms-twilio",
+      "kind": "trigger_backend",
+      "repo": "launchapp-dev/animus-trigger-sms-twilio",
+      "latest_tag": "v0.1.1",
+      "description": "Twilio SMS and MMS trigger backend with outbound messaging RPCs",
+      "homepage": "https://github.com/launchapp-dev/animus-trigger-sms-twilio",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["trigger", "twilio", "sms", "mms"],
+      "install_hint": "animus plugin install launchapp-dev/animus-trigger-sms-twilio"
+    },
+    {
+      "name": "animus-trigger-telegram",
+      "kind": "trigger_backend",
+      "repo": "launchapp-dev/animus-trigger-telegram",
+      "latest_tag": "v0.1.1",
+      "description": "Telegram Bot API trigger backend with webhook, polling, and outbound chat RPCs",
+      "homepage": "https://github.com/launchapp-dev/animus-trigger-telegram",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["trigger", "telegram", "chat", "bot"],
+      "install_hint": "animus plugin install launchapp-dev/animus-trigger-telegram"
+    },
+    {
+      "name": "animus-trigger-whatsapp",
+      "kind": "trigger_backend",
+      "repo": "launchapp-dev/animus-trigger-whatsapp",
+      "latest_tag": "v0.1.2",
+      "description": "WhatsApp Business Cloud API trigger backend with inbound webhook receiver and outbound Graph API sender",
+      "homepage": "https://github.com/launchapp-dev/animus-trigger-whatsapp",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["trigger", "whatsapp", "meta", "chat"],
+      "install_hint": "animus plugin install launchapp-dev/animus-trigger-whatsapp"
     },
     {
       "name": "animus-log-storage-file",
