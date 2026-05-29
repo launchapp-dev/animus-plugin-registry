@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T14:06:05Z",
+  "updated_at": "2026-05-29T14:22:42Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -446,6 +446,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-depsdev-project-package-versions"
     },
     {
+      "name": "animus-subject-devto-articles",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-devto-articles",
+      "latest_tag": "v0.1.0",
+      "description": "DEV Community articles subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-devto-articles",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "devto", "forem", "articles", "developer-community"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-devto-articles"
+    },
+    {
       "name": "animus-subject-dockerhub-tags",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-dockerhub-tags",
@@ -860,6 +873,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "maven", "java", "packages", "versions"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-maven-central-versions"
+    },
+    {
+      "name": "animus-subject-mastodon-statuses",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-mastodon-statuses",
+      "latest_tag": "v0.1.0",
+      "description": "Mastodon public statuses subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-mastodon-statuses",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "mastodon", "fediverse", "statuses", "social"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-mastodon-statuses"
     },
     {
       "name": "animus-subject-metacpan-releases",
