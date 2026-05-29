@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T18:30:30Z",
+  "updated_at": "2026-05-29T18:43:23Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -654,6 +654,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-first-epss-scores"
     },
     {
+      "name": "animus-subject-federalregister-documents",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-federalregister-documents",
+      "latest_tag": "v0.1.0",
+      "description": "Federal Register documents subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-federalregister-documents",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "federal-register", "documents", "regulations", "public-records"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-federalregister-documents"
+    },
+    {
       "name": "animus-subject-freshdesk",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-freshdesk",
@@ -1133,6 +1146,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "openfda", "drug-events", "adverse-events", "health"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openfda-drug-events"
+    },
+    {
+      "name": "animus-subject-openfoodfacts-products",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openfoodfacts-products",
+      "latest_tag": "v0.1.0",
+      "description": "Open Food Facts products subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openfoodfacts-products",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "open-food-facts", "products", "food", "nutrition"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openfoodfacts-products"
     },
     {
       "name": "animus-subject-openlibrary-books",
