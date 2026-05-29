@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T09:40:09Z",
+  "updated_at": "2026-05-29T09:53:20Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -171,6 +171,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "argocd", "applications", "gitops", "deployment"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-argocd-applications"
+    },
+    {
+      "name": "animus-subject-artifacthub-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-artifacthub-versions",
+      "latest_tag": "v0.1.0",
+      "description": "Artifact Hub package versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-artifacthub-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "artifacthub", "helm", "kubernetes", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-artifacthub-versions"
     },
     {
       "name": "animus-subject-asana",
@@ -821,6 +834,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "teamcity", "builds", "ci", "delivery"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-teamcity"
+    },
+    {
+      "name": "animus-subject-terraform-registry-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-terraform-registry-versions",
+      "latest_tag": "v0.1.0",
+      "description": "Terraform Registry versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-terraform-registry-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "terraform", "registry", "iac", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-terraform-registry-versions"
     },
     {
       "name": "animus-subject-todoist",
