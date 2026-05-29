@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T06:21:14Z",
+  "updated_at": "2026-05-29T06:53:02Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -264,6 +264,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-datadog"
     },
     {
+      "name": "animus-subject-dependabot",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-dependabot",
+      "latest_tag": "v0.1.0",
+      "description": "GitHub Dependabot alerts subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-dependabot",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "dependabot", "security", "vulnerabilities", "github"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-dependabot"
+    },
+    {
       "name": "animus-subject-freshdesk",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-freshdesk",
@@ -522,6 +535,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "shortcut", "stories", "project-management", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-shortcut"
+    },
+    {
+      "name": "animus-subject-sonarqube",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-sonarqube",
+      "latest_tag": "v0.1.0",
+      "description": "SonarQube issues subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-sonarqube",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "sonarqube", "issues", "code-quality", "security"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-sonarqube"
     },
     {
       "name": "animus-subject-taiga",
