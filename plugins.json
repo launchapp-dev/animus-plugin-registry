@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T08:43:58Z",
+  "updated_at": "2026-05-29T08:57:56Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -537,6 +537,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-notion"
     },
     {
+      "name": "animus-subject-npm-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-npm-versions",
+      "latest_tag": "v0.1.0",
+      "description": "npm package versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-npm-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "npm", "packages", "versions", "registry"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-npm-versions"
+    },
+    {
       "name": "animus-subject-opsgenie",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-opsgenie",
@@ -587,6 +600,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "plane", "work-items", "project-management", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-plane"
+    },
+    {
+      "name": "animus-subject-pypi-releases",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-pypi-releases",
+      "latest_tag": "v0.1.0",
+      "description": "PyPI releases subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-pypi-releases",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "pypi", "python", "packages", "releases"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-pypi-releases"
     },
     {
       "name": "animus-subject-redmine",
