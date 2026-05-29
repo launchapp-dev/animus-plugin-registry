@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T18:43:23Z",
+  "updated_at": "2026-05-29T18:59:38Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -288,6 +288,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "bugzilla", "bugs", "issue-tracking", "open-source"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-bugzilla"
+    },
+    {
+      "name": "animus-subject-chembl-molecules",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-chembl-molecules",
+      "latest_tag": "v0.1.0",
+      "description": "ChEMBL molecule search subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-chembl-molecules",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "chembl", "molecules", "chemistry", "bioactivity"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-chembl-molecules"
     },
     {
       "name": "animus-subject-circleci",
@@ -1302,6 +1315,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "pubdev", "dart", "flutter", "packages", "versions"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-pubdev-versions"
+    },
+    {
+      "name": "animus-subject-pubmed-articles",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-pubmed-articles",
+      "latest_tag": "v0.1.0",
+      "description": "PubMed article search subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-pubmed-articles",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "pubmed", "articles", "biomedical", "research"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-pubmed-articles"
     },
     {
       "name": "animus-subject-pypi-releases",
