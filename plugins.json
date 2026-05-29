@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T18:15:22Z",
+  "updated_at": "2026-05-29T18:30:30Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1252,6 +1252,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-plane"
     },
     {
+      "name": "animus-subject-pubchem-compounds",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-pubchem-compounds",
+      "latest_tag": "v0.1.0",
+      "description": "PubChem compound properties subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-pubchem-compounds",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "pubchem", "compounds", "chemistry", "metadata"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-pubchem-compounds"
+    },
+    {
       "name": "animus-subject-pubdev-versions",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-pubdev-versions",
@@ -1484,6 +1497,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "teamcity", "builds", "ci", "delivery"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-teamcity"
+    },
+    {
+      "name": "animus-subject-uniprot-proteins",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-uniprot-proteins",
+      "latest_tag": "v0.1.0",
+      "description": "UniProtKB protein search subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-uniprot-proteins",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "uniprot", "proteins", "biology", "metadata"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-uniprot-proteins"
     },
     {
       "name": "animus-subject-usgs-earthquakes",
