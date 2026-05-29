@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T09:53:20Z",
+  "updated_at": "2026-05-29T10:06:51Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -511,6 +511,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-hubspot"
     },
     {
+      "name": "animus-subject-homebrew-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-homebrew-versions",
+      "latest_tag": "v0.1.0",
+      "description": "Homebrew formula and cask versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-homebrew-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "homebrew", "formulae", "casks", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-homebrew-versions"
+    },
+    {
       "name": "animus-subject-intercom",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-intercom",
@@ -639,6 +652,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "openproject", "work-packages", "project-management", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openproject"
+    },
+    {
+      "name": "animus-subject-openvsx-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openvsx-versions",
+      "latest_tag": "v0.1.0",
+      "description": "Open VSX extension versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openvsx-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openvsx", "vscode", "extensions", "marketplace", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openvsx-versions"
     },
     {
       "name": "animus-subject-pagerduty",
