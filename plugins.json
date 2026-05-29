@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T12:01:14Z",
+  "updated_at": "2026-05-29T12:23:19Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -459,6 +459,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-endoflife-cycles"
     },
     {
+      "name": "animus-subject-first-epss-scores",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-first-epss-scores",
+      "latest_tag": "v0.1.0",
+      "description": "FIRST EPSS score subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-first-epss-scores",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "first", "epss", "vulnerabilities", "security"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-first-epss-scores"
+    },
+    {
       "name": "animus-subject-freshdesk",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-freshdesk",
@@ -782,6 +795,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "nuget", "dotnet", "packages", "versions"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-nuget-versions"
+    },
+    {
+      "name": "animus-subject-nvd-cves",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-nvd-cves",
+      "latest_tag": "v0.1.0",
+      "description": "NVD CVE subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-nvd-cves",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "nvd", "cve", "vulnerabilities", "security"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-nvd-cves"
     },
     {
       "name": "animus-subject-opsgenie",
