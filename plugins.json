@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T08:57:56Z",
+  "updated_at": "2026-05-29T09:11:17Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -288,6 +288,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "cloudflare", "pages", "deployments", "deployment"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-cloudflare-pages"
+    },
+    {
+      "name": "animus-subject-crates-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-crates-versions",
+      "latest_tag": "v0.1.0",
+      "description": "crates.io versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-crates-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "crates", "rust", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-crates-versions"
     },
     {
       "name": "animus-subject-datadog",
@@ -639,6 +652,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "render", "deploys", "paas", "deployment"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-render-deploys"
+    },
+    {
+      "name": "animus-subject-rubygems-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-rubygems-versions",
+      "latest_tag": "v0.1.0",
+      "description": "RubyGems versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-rubygems-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "rubygems", "ruby", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-rubygems-versions"
     },
     {
       "name": "animus-subject-salesforce",
