@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T11:03:59Z",
+  "updated_at": "2026-05-29T11:18:43Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -316,6 +316,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-cloudflare-pages"
     },
     {
+      "name": "animus-subject-cocoapods-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-cocoapods-versions",
+      "latest_tag": "v0.1.0",
+      "description": "CocoaPods pod versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-cocoapods-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "cocoapods", "ios", "swift", "packages"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-cocoapods-versions"
+    },
+    {
       "name": "animus-subject-conda-versions",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-conda-versions",
@@ -470,6 +483,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "go", "modules", "packages", "versions"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-go-module-versions"
+    },
+    {
+      "name": "animus-subject-gradle-plugin-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-gradle-plugin-versions",
+      "latest_tag": "v0.1.0",
+      "description": "Gradle Plugin Portal versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-gradle-plugin-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "gradle", "plugins", "jvm", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-gradle-plugin-versions"
     },
     {
       "name": "animus-subject-gitea",
