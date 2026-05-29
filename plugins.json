@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T20:54:00Z",
+  "updated_at": "2026-05-29T21:09:05Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -732,6 +732,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-federalregister-documents"
     },
     {
+      "name": "animus-subject-figshare-articles",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-figshare-articles",
+      "latest_tag": "v0.1.0",
+      "description": "Figshare public article subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-figshare-articles",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "figshare", "articles", "datasets", "research"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-figshare-articles"
+    },
+    {
       "name": "animus-subject-freshdesk",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-freshdesk",
@@ -847,6 +860,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "gradle", "plugins", "jvm", "versions"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-gradle-plugin-versions"
+    },
+    {
+      "name": "animus-subject-gutendex-books",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-gutendex-books",
+      "latest_tag": "v0.1.0",
+      "description": "Gutendex Project Gutenberg book subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-gutendex-books",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "gutendex", "project-gutenberg", "books", "ebooks"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-gutendex-books"
     },
     {
       "name": "animus-subject-gitea",
