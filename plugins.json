@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T08:01:36Z",
+  "updated_at": "2026-05-29T08:18:41Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -262,6 +262,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "code-scanning", "security", "sast", "github"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-code-scanning"
+    },
+    {
+      "name": "animus-subject-cloudflare-pages",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-cloudflare-pages",
+      "latest_tag": "v0.1.0",
+      "description": "Cloudflare Pages deployments subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-cloudflare-pages",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "cloudflare", "pages", "deployments", "deployment"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-cloudflare-pages"
     },
     {
       "name": "animus-subject-datadog",
@@ -613,6 +626,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "sonarqube", "issues", "code-quality", "security"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-sonarqube"
+    },
+    {
+      "name": "animus-subject-snyk-issues",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-snyk-issues",
+      "latest_tag": "v0.1.0",
+      "description": "Snyk issues subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-snyk-issues",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "snyk", "issues", "security", "vulnerabilities"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-snyk-issues"
     },
     {
       "name": "animus-subject-taiga",
