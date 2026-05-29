@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T13:07:32Z",
+  "updated_at": "2026-05-29T13:22:06Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -483,6 +483,32 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "ecosystems", "packages", "versions", "supply-chain"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-ecosystems-package-versions"
+    },
+    {
+      "name": "animus-subject-ecosystems-advisories",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-ecosystems-advisories",
+      "latest_tag": "v0.1.0",
+      "description": "ecosyste.ms advisories subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-ecosystems-advisories",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "ecosystems", "advisories", "vulnerabilities", "security"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-ecosystems-advisories"
+    },
+    {
+      "name": "animus-subject-ecosystems-repository-issues",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-ecosystems-repository-issues",
+      "latest_tag": "v0.1.0",
+      "description": "ecosyste.ms repository issues subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-ecosystems-repository-issues",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "ecosystems", "repositories", "issues", "pull-requests"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-ecosystems-repository-issues"
     },
     {
       "name": "animus-subject-ecosystems-repository-releases",
