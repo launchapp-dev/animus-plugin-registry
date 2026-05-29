@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T04:08:06Z",
+  "updated_at": "2026-05-29T04:37:14Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -171,6 +171,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "azure-devops", "work-items", "boards", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-azure-devops"
+    },
+    {
+      "name": "animus-subject-bitbucket",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-bitbucket",
+      "latest_tag": "v0.1.0",
+      "description": "Bitbucket Cloud issues subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-bitbucket",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "bitbucket", "issues", "atlassian", "issue-tracking"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-bitbucket"
     },
     {
       "name": "animus-subject-clickup",
@@ -392,6 +405,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "trello", "cards", "kanban", "project-management"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-trello"
+    },
+    {
+      "name": "animus-subject-wrike",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-wrike",
+      "latest_tag": "v0.1.0",
+      "description": "Wrike tasks subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-wrike",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "wrike", "tasks", "project-management", "work-management"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-wrike"
     },
     {
       "name": "animus-subject-youtrack",
