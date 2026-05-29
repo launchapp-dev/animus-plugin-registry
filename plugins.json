@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T02:15:44Z",
+  "updated_at": "2026-05-29T02:20:17Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -202,7 +202,7 @@
       "name": "animus-subject-notion",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-notion",
-      "latest_tag": "v0.1.0",
+      "latest_tag": "v0.1.1",
       "description": "Notion pages subject backend plugin for Animus",
       "homepage": "https://github.com/launchapp-dev/animus-subject-notion",
       "license": "Elastic-2.0",
