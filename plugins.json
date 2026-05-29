@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T11:32:18Z",
+  "updated_at": "2026-05-29T11:47:36Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -433,6 +433,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-dependabot"
     },
     {
+      "name": "animus-subject-endoflife-cycles",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-endoflife-cycles",
+      "latest_tag": "v0.1.0",
+      "description": "endoflife.date product lifecycle subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-endoflife-cycles",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "endoflife", "lifecycle", "eol", "support"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-endoflife-cycles"
+    },
+    {
       "name": "animus-subject-freshdesk",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-freshdesk",
@@ -795,6 +808,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "openvsx", "vscode", "extensions", "marketplace", "versions"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openvsx-versions"
+    },
+    {
+      "name": "animus-subject-osv-vulnerabilities",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-osv-vulnerabilities",
+      "latest_tag": "v0.1.0",
+      "description": "OSV package vulnerability subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-osv-vulnerabilities",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "osv", "vulnerabilities", "security", "packages"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-osv-vulnerabilities"
     },
     {
       "name": "animus-subject-pagerduty",
