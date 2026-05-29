@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T16:49:03Z",
+  "updated_at": "2026-05-29T17:08:41Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1044,6 +1044,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openalex-works"
     },
     {
+      "name": "animus-subject-openfda-drug-events",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openfda-drug-events",
+      "latest_tag": "v0.1.0",
+      "description": "openFDA drug adverse event subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openfda-drug-events",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openfda", "drug-events", "adverse-events", "health"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openfda-drug-events"
+    },
+    {
       "name": "animus-subject-openlibrary-books",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-openlibrary-books",
@@ -1432,6 +1445,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "wikidata", "entities", "knowledge-base", "semantic-web"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-wikidata-entities"
+    },
+    {
+      "name": "animus-subject-worldbank-indicators",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-worldbank-indicators",
+      "latest_tag": "v0.1.0",
+      "description": "World Bank indicator observations subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-worldbank-indicators",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "worldbank", "indicators", "economic-data", "statistics"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-worldbank-indicators"
     },
     {
       "name": "animus-subject-wrike",
