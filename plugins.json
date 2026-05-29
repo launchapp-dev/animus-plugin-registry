@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T01:08:00Z",
+  "updated_at": "2026-05-29T01:30:18Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -145,6 +145,32 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "github", "issues", "pull-requests", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-github"
+    },
+    {
+      "name": "animus-subject-gitlab",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-gitlab",
+      "latest_tag": "v0.1.0",
+      "description": "GitLab Issues subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-gitlab",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "gitlab", "issues", "devops", "issue-tracking"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-gitlab"
+    },
+    {
+      "name": "animus-subject-jira",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-jira",
+      "latest_tag": "v0.1.0",
+      "description": "Jira Cloud issues subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-jira",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "jira", "issues", "atlassian", "issue-tracking"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-jira"
     },
     {
       "name": "animus-subject-zendesk",
