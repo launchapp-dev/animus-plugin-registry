@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T20:35:48Z",
+  "updated_at": "2026-05-29T20:54:00Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -548,6 +548,32 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "dockerhub", "docker", "container-images", "tags"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-dockerhub-tags"
+    },
+    {
+      "name": "animus-subject-doaj-articles",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-doaj-articles",
+      "latest_tag": "v0.1.0",
+      "description": "Directory of Open Access Journals article subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-doaj-articles",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "doaj", "articles", "open-access", "research"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-doaj-articles"
+    },
+    {
+      "name": "animus-subject-doaj-journals",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-doaj-journals",
+      "latest_tag": "v0.1.0",
+      "description": "Directory of Open Access Journals journal subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-doaj-journals",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "doaj", "journals", "open-access", "research"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-doaj-journals"
     },
     {
       "name": "animus-subject-dependabot",
