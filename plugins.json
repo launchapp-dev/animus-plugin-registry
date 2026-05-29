@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T02:46:04Z",
+  "updated_at": "2026-05-29T02:59:43Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -173,6 +173,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-clickup"
     },
     {
+      "name": "animus-subject-freshdesk",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-freshdesk",
+      "latest_tag": "v0.1.0",
+      "description": "Freshdesk tickets subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-freshdesk",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "freshdesk", "tickets", "support", "helpdesk"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-freshdesk"
+    },
+    {
       "name": "animus-subject-github",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-github",
@@ -236,6 +249,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "notion", "pages", "database", "docs"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-notion"
+    },
+    {
+      "name": "animus-subject-pagerduty",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-pagerduty",
+      "latest_tag": "v0.1.0",
+      "description": "PagerDuty incidents subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-pagerduty",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "pagerduty", "incidents", "on-call", "incident-management"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-pagerduty"
     },
     {
       "name": "animus-subject-shortcut",
