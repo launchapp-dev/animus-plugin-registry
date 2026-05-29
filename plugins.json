@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T17:50:12Z",
+  "updated_at": "2026-05-29T18:02:45Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -990,6 +990,32 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "metacpan", "cpan", "perl", "packages", "releases"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-metacpan-releases"
+    },
+    {
+      "name": "animus-subject-nasa-apod",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-nasa-apod",
+      "latest_tag": "v0.1.0",
+      "description": "NASA Astronomy Picture of the Day subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-nasa-apod",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "nasa", "apod", "astronomy", "media"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-nasa-apod"
+    },
+    {
+      "name": "animus-subject-nasa-neo-feed",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-nasa-neo-feed",
+      "latest_tag": "v0.1.0",
+      "description": "NASA NeoWs near-Earth object feed subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-nasa-neo-feed",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "nasa", "neows", "asteroids", "space"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-nasa-neo-feed"
     },
     {
       "name": "animus-subject-notion",
