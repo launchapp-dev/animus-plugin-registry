@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T10:20:55Z",
+  "updated_at": "2026-05-29T10:34:57Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -511,6 +511,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-glpi"
     },
     {
+      "name": "animus-subject-hexpm-releases",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-hexpm-releases",
+      "latest_tag": "v0.1.0",
+      "description": "Hex.pm package releases subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-hexpm-releases",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "hexpm", "elixir", "erlang", "packages", "releases"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-hexpm-releases"
+    },
+    {
       "name": "animus-subject-hubspot",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-hubspot",
@@ -717,6 +730,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "plane", "work-items", "project-management", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-plane"
+    },
+    {
+      "name": "animus-subject-pubdev-versions",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-pubdev-versions",
+      "latest_tag": "v0.1.0",
+      "description": "pub.dev package versions subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-pubdev-versions",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "pubdev", "dart", "flutter", "packages", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-pubdev-versions"
     },
     {
       "name": "animus-subject-pypi-releases",
