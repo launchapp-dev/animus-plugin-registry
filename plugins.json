@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-29T23:31:15Z",
+  "updated_at": "2026-05-29T23:47:41Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1382,6 +1382,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openfda-drug-ndc"
     },
     {
+      "name": "animus-subject-openfda-drug-shortages",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openfda-drug-shortages",
+      "latest_tag": "v0.1.0",
+      "description": "openFDA Drug Shortages subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openfda-drug-shortages",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openfda", "drug-shortages", "availability", "health"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openfda-drug-shortages"
+    },
+    {
       "name": "animus-subject-openfda-food-enforcement",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-openfda-food-enforcement",
@@ -1419,6 +1432,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "openfda", "device-events", "adverse-events", "health"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openfda-device-events"
+    },
+    {
+      "name": "animus-subject-openfda-device-udi",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openfda-device-udi",
+      "latest_tag": "v0.1.0",
+      "description": "openFDA Device UDI subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openfda-device-udi",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openfda", "device-udi", "gudid", "health"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openfda-device-udi"
     },
     {
       "name": "animus-subject-openfda-device-enforcement",
