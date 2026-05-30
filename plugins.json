@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T15:35:15Z",
+  "updated_at": "2026-05-30T15:49:12Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -2628,6 +2628,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "salesforce", "cases", "crm", "support"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-salesforce"
+    },
+    {
+      "name": "animus-subject-scryfall-cards",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-scryfall-cards",
+      "latest_tag": "v0.1.0",
+      "description": "Scryfall cards subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-scryfall-cards",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "scryfall", "magic-the-gathering", "cards", "game-data"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-scryfall-cards"
     },
     {
       "name": "animus-subject-sec-edgar-filings",
