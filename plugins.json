@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T19:32:09Z",
+  "updated_at": "2026-05-30T19:45:17Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1263,6 +1263,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "inaturalist", "observations", "biodiversity", "species"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-inaturalist-observations"
+    },
+    {
+      "name": "animus-subject-imf-datamapper-indicators",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-imf-datamapper-indicators",
+      "latest_tag": "v0.1.0",
+      "description": "IMF DataMapper indicator metadata subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-imf-datamapper-indicators",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "imf", "datamapper", "indicators", "economic-data", "metadata"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-imf-datamapper-indicators"
     },
     {
       "name": "animus-subject-intercom",
