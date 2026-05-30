@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T02:36:57Z",
+  "updated_at": "2026-05-30T02:54:03Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1315,6 +1315,32 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "nhtsa", "vehicle-safety", "recalls", "transportation", "government"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-nhtsa-recalls"
+    },
+    {
+      "name": "animus-subject-noaa-coops-stations",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-noaa-coops-stations",
+      "latest_tag": "v0.1.0",
+      "description": "NOAA CO-OPS stations subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-noaa-coops-stations",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "noaa", "coops", "tides", "stations", "oceanography"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-noaa-coops-stations"
+    },
+    {
+      "name": "animus-subject-noaa-homr-stations",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-noaa-homr-stations",
+      "latest_tag": "v0.1.0",
+      "description": "NOAA HOMR station metadata subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-noaa-homr-stations",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "noaa", "ncei", "homr", "stations", "weather"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-noaa-homr-stations"
     },
     {
       "name": "animus-subject-nominatim-places",
