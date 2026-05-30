@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T08:12:43Z",
+  "updated_at": "2026-05-30T08:27:55Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1302,6 +1302,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "musicbrainz", "artists", "music", "metadata"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-musicbrainz-artists"
+    },
+    {
+      "name": "animus-subject-musicbrainz-areas",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-musicbrainz-areas",
+      "latest_tag": "v0.1.0",
+      "description": "MusicBrainz area search subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-musicbrainz-areas",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "musicbrainz", "areas", "music", "metadata"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-musicbrainz-areas"
     },
     {
       "name": "animus-subject-musicbrainz-events",
