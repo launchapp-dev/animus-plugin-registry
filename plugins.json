@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T16:53:25Z",
+  "updated_at": "2026-05-30T17:08:06Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1666,6 +1666,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "nominatim", "openstreetmap", "places", "geocoding"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-nominatim-places"
+    },
+    {
+      "name": "animus-subject-nobelprize-laureates",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-nobelprize-laureates",
+      "latest_tag": "v0.1.0",
+      "description": "Nobel Prize laureates subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-nobelprize-laureates",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "nobel-prize", "laureates", "awards", "research"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-nobelprize-laureates"
     },
     {
       "name": "animus-subject-notion",
