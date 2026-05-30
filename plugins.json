@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T06:33:54Z",
+  "updated_at": "2026-05-30T06:45:53Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1302,6 +1302,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "musicbrainz", "artists", "music", "metadata"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-musicbrainz-artists"
+    },
+    {
+      "name": "animus-subject-musicbrainz-recordings",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-musicbrainz-recordings",
+      "latest_tag": "v0.1.0",
+      "description": "MusicBrainz recording search subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-musicbrainz-recordings",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "musicbrainz", "recordings", "music", "metadata"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-musicbrainz-recordings"
     },
     {
       "name": "animus-subject-nasa-images",
