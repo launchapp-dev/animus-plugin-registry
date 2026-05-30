@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T02:54:03Z",
+  "updated_at": "2026-05-30T03:12:15Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -418,6 +418,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "conda", "conda-forge", "packages", "versions"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-conda-versions"
+    },
+    {
+      "name": "animus-subject-cfpb-consumer-complaints",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-cfpb-consumer-complaints",
+      "latest_tag": "v0.1.0",
+      "description": "CFPB consumer complaint database subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-cfpb-consumer-complaints",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "cfpb", "consumer-complaints", "financial-services", "public-data", "government"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-cfpb-consumer-complaints"
     },
     {
       "name": "animus-subject-cran-packages",
