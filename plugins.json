@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T23:28:23Z",
+  "updated_at": "2026-05-30T23:39:58Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1588,6 +1588,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "metmuseum", "collection", "art", "cultural-heritage"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-metmuseum-objects"
+    },
+    {
+      "name": "animus-subject-mitre-attack-techniques",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-mitre-attack-techniques",
+      "latest_tag": "v0.1.0",
+      "description": "MITRE ATT&CK Enterprise techniques subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-mitre-attack-techniques",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "mitre-attack", "attack", "techniques", "security"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-mitre-attack-techniques"
     },
     {
       "name": "animus-subject-mozilla-addons",
