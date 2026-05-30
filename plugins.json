@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T04:03:59Z",
+  "updated_at": "2026-05-30T04:21:59Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -756,6 +756,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "ensembl", "genes", "genomics", "biology"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-ensembl-genes"
+    },
+    {
+      "name": "animus-subject-epa-echo-facilities",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-epa-echo-facilities",
+      "latest_tag": "v0.1.0",
+      "description": "EPA ECHO regulated facilities subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-epa-echo-facilities",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "epa", "echo", "facilities", "compliance", "environment"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-epa-echo-facilities"
     },
     {
       "name": "animus-subject-europepmc-publications",
