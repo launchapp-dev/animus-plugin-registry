@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T01:59:44Z",
+  "updated_at": "2026-05-30T02:18:08Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1434,6 +1434,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openbrewerydb-breweries"
     },
     {
+      "name": "animus-subject-openfema-disaster-declarations",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openfema-disaster-declarations",
+      "latest_tag": "v0.1.0",
+      "description": "OpenFEMA disaster declarations subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openfema-disaster-declarations",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openfema", "fema", "disaster-declarations", "emergency-management", "open-data"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openfema-disaster-declarations"
+    },
+    {
       "name": "animus-subject-openfda-animal-veterinary-events",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-openfda-animal-veterinary-events",
@@ -2134,6 +2147,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "treasury", "fiscal-data", "public-debt", "economics"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-us-treasury-debt"
+    },
+    {
+      "name": "animus-subject-usaspending-awards",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-usaspending-awards",
+      "latest_tag": "v0.1.0",
+      "description": "USAspending awards subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-usaspending-awards",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "usaspending", "federal-spending", "awards", "contracts", "government"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-usaspending-awards"
     },
     {
       "name": "animus-subject-terraform-registry-versions",
