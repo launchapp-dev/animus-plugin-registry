@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T00:28:20Z",
+  "updated_at": "2026-05-30T00:44:39Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -496,6 +496,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "datagov", "datasets", "open-data", "government"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-datagov-datasets"
+    },
+    {
+      "name": "animus-subject-datausa-population",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-datausa-population",
+      "latest_tag": "v0.1.0",
+      "description": "Data USA population subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-datausa-population",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "datausa", "population", "open-data", "demographics"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-datausa-population"
     },
     {
       "name": "animus-subject-debian-source-versions",
@@ -1042,6 +1055,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "intercom", "conversations", "support", "customer-messaging"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-intercom"
+    },
+    {
+      "name": "animus-subject-itunes-search-results",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-itunes-search-results",
+      "latest_tag": "v0.1.0",
+      "description": "iTunes Search API result subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-itunes-search-results",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "itunes", "search", "media", "catalog"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-itunes-search-results"
     },
     {
       "name": "animus-subject-jenkins",
