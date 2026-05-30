@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T14:02:32Z",
+  "updated_at": "2026-05-30T14:19:35Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -2303,6 +2303,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "open-meteo", "elevation", "terrain", "geodata"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openmeteo-elevation"
+    },
+    {
+      "name": "animus-subject-openmeteo-historical-weather",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openmeteo-historical-weather",
+      "latest_tag": "v0.1.0",
+      "description": "Open-Meteo historical weather subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openmeteo-historical-weather",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "open-meteo", "historical-weather", "archive", "meteorology"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openmeteo-historical-weather"
     },
     {
       "name": "animus-subject-opentargets-targets",
