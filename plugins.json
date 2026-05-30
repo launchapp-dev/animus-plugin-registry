@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T22:45:11Z",
+  "updated_at": "2026-05-30T23:01:14Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -2758,6 +2758,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "orcid", "researchers", "scholarly", "identity"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-orcid-researchers"
+    },
+    {
+      "name": "animus-subject-osf-nodes",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-osf-nodes",
+      "latest_tag": "v0.1.0",
+      "description": "Open Science Framework node subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-osf-nodes",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "osf", "open-science", "research", "nodes"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-osf-nodes"
     },
     {
       "name": "animus-subject-pagerduty",
