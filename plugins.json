@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T12:04:27Z",
+  "updated_at": "2026-05-30T12:20:50Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1900,6 +1900,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "openalex", "institution-types", "research", "classification"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openalex-institution-types"
+    },
+    {
+      "name": "animus-subject-openalex-languages",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openalex-languages",
+      "latest_tag": "v0.1.0",
+      "description": "OpenAlex languages subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openalex-languages",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openalex", "languages", "research", "classification"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openalex-languages"
     },
     {
       "name": "animus-subject-openbrewerydb-breweries",
