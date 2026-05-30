@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T13:32:35Z",
+  "updated_at": "2026-05-30T13:45:53Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -379,6 +379,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "clinicaltrials", "studies", "clinical-research", "health"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-clinicaltrials-studies"
+    },
+    {
+      "name": "animus-subject-clevelandart-artworks",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-clevelandart-artworks",
+      "latest_tag": "v0.1.0",
+      "description": "Cleveland Museum of Art artwork subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-clevelandart-artworks",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "clevelandart", "cleveland-museum-of-art", "artworks", "museum", "open-access"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-clevelandart-artworks"
     },
     {
       "name": "animus-subject-code-scanning",
