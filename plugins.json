@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T20:13:09Z",
+  "updated_at": "2026-05-30T20:26:01Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -2953,6 +2953,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "spaceflight-news", "articles", "spaceflight", "media-monitoring"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-spaceflightnews-articles"
+    },
+    {
+      "name": "animus-subject-spdx-licenses",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-spdx-licenses",
+      "latest_tag": "v0.1.0",
+      "description": "SPDX License List subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-spdx-licenses",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "spdx", "licenses", "compliance", "sbom"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-spdx-licenses"
     },
     {
       "name": "animus-subject-stackexchange-questions",
