@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T09:34:30Z",
+  "updated_at": "2026-05-30T09:48:20Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1744,6 +1744,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "openalex", "topics", "scholarly", "research"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openalex-topics"
+    },
+    {
+      "name": "animus-subject-openalex-subfields",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openalex-subfields",
+      "latest_tag": "v0.1.0",
+      "description": "OpenAlex subfields subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openalex-subfields",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "openalex", "subfields", "scholarly", "research"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openalex-subfields"
     },
     {
       "name": "animus-subject-openbrewerydb-breweries",
