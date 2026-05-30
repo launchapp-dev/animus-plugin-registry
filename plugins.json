@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T16:38:22Z",
+  "updated_at": "2026-05-30T16:53:25Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -886,6 +886,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "frankfurter", "exchange-rates", "currencies", "finance"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-frankfurter-exchange-rates"
+    },
+    {
+      "name": "animus-subject-fruityvice-fruits",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-fruityvice-fruits",
+      "latest_tag": "v0.1.0",
+      "description": "Fruityvice fruit nutrition subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-fruityvice-fruits",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "fruityvice", "fruits", "nutrition", "food"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-fruityvice-fruits"
     },
     {
       "name": "animus-subject-fly-machines",
