@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T18:04:46Z",
+  "updated_at": "2026-05-30T18:18:40Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -2966,6 +2966,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "usaspending", "federal-spending", "awards", "contracts", "government"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-usaspending-awards"
+    },
+    {
+      "name": "animus-subject-terraform-registry-providers",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-terraform-registry-providers",
+      "latest_tag": "v0.1.0",
+      "description": "Terraform Registry providers subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-terraform-registry-providers",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "terraform", "registry", "providers", "iac", "packages"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-terraform-registry-providers"
     },
     {
       "name": "animus-subject-terraform-registry-versions",
