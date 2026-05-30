@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T17:40:15Z",
+  "updated_at": "2026-05-30T18:04:46Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -314,6 +314,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "bugzilla", "bugs", "issue-tracking", "open-source"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-bugzilla"
+    },
+    {
+      "name": "animus-subject-census-acs-profile-variables",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-census-acs-profile-variables",
+      "latest_tag": "v0.1.0",
+      "description": "U.S. Census ACS profile variables subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-census-acs-profile-variables",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "census", "acs", "variables", "demographics"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-census-acs-profile-variables"
     },
     {
       "name": "animus-subject-chembl-molecules",
