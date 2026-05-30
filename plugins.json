@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T01:22:36Z",
+  "updated_at": "2026-05-30T01:39:08Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -797,6 +797,19 @@
       "install_hint": "animus plugin install launchapp-dev/animus-subject-freshdesk"
     },
     {
+      "name": "animus-subject-frankfurter-exchange-rates",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-frankfurter-exchange-rates",
+      "latest_tag": "v0.1.0",
+      "description": "Frankfurter exchange rates subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-frankfurter-exchange-rates",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "frankfurter", "exchange-rates", "currencies", "finance"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-frankfurter-exchange-rates"
+    },
+    {
       "name": "animus-subject-fly-machines",
       "kind": "subject_backend",
       "repo": "launchapp-dev/animus-subject-fly-machines",
@@ -1224,6 +1237,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "nasa", "images", "media", "space"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-nasa-images"
+    },
+    {
+      "name": "animus-subject-nager-public-holidays",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-nager-public-holidays",
+      "latest_tag": "v0.1.0",
+      "description": "Nager.Date public holidays subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-nager-public-holidays",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "nager", "public-holidays", "calendar", "countries"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-nager-public-holidays"
     },
     {
       "name": "animus-subject-nasa-apod",
