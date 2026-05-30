@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T12:49:45Z",
+  "updated_at": "2026-05-30T13:03:07Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -2238,6 +2238,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "open-meteo", "marine", "waves", "meteorology"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-openmeteo-marine"
+    },
+    {
+      "name": "animus-subject-openmeteo-flood",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-openmeteo-flood",
+      "latest_tag": "v0.1.0",
+      "description": "Open-Meteo flood forecasts subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-openmeteo-flood",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "open-meteo", "flood", "river-discharge", "hydrology"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-openmeteo-flood"
     },
     {
       "name": "animus-subject-opentargets-targets",
