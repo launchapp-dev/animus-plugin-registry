@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T15:05:33Z",
+  "updated_at": "2026-05-30T15:22:02Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1172,6 +1172,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "homebrew", "formulae", "casks", "packages", "versions"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-homebrew-versions"
+    },
+    {
+      "name": "animus-subject-huggingface-models",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-huggingface-models",
+      "latest_tag": "v0.1.0",
+      "description": "Hugging Face models subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-huggingface-models",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "huggingface", "models", "ai", "machine-learning"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-huggingface-models"
     },
     {
       "name": "animus-subject-inaturalist-observations",
