@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T01:02:33Z",
+  "updated_at": "2026-05-30T01:22:36Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -262,6 +262,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "bitbucket", "issues", "atlassian", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-bitbucket"
+    },
+    {
+      "name": "animus-subject-bls-series-observations",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-bls-series-observations",
+      "latest_tag": "v0.1.0",
+      "description": "BLS time-series observations subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-bls-series-observations",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "bls", "labor-statistics", "time-series", "economics"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-bls-series-observations"
     },
     {
       "name": "animus-subject-buildkite",
@@ -2056,6 +2069,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "usgs", "earthquakes", "hazards", "geodata"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-usgs-earthquakes"
+    },
+    {
+      "name": "animus-subject-us-treasury-debt",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-us-treasury-debt",
+      "latest_tag": "v0.1.0",
+      "description": "U.S. Treasury Debt to the Penny subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-us-treasury-debt",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "treasury", "fiscal-data", "public-debt", "economics"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-us-treasury-debt"
     },
     {
       "name": "animus-subject-terraform-registry-versions",
