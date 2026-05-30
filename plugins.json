@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T05:06:26Z",
+  "updated_at": "2026-05-30T05:23:43Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1185,6 +1185,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "library-of-congress", "photos", "archives", "cultural-heritage"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-loc-photos"
+    },
+    {
+      "name": "animus-subject-loc-newspapers",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-loc-newspapers",
+      "latest_tag": "v0.1.0",
+      "description": "Library of Congress newspaper directory subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-loc-newspapers",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "library-of-congress", "newspapers", "history", "catalog"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-loc-newspapers"
     },
     {
       "name": "animus-subject-monday",
