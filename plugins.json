@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T18:49:56Z",
+  "updated_at": "2026-05-30T19:02:31Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1328,6 +1328,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "jolpica", "f1", "formula-1", "motorsport", "race-results"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-jolpica-f1-results"
+    },
+    {
+      "name": "animus-subject-jsr-packages",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-jsr-packages",
+      "latest_tag": "v0.1.0",
+      "description": "JSR package search subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-jsr-packages",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "jsr", "packages", "typescript", "deno", "versions"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-jsr-packages"
     },
     {
       "name": "animus-subject-launchlibrary-launches",
