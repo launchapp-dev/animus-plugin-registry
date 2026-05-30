@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T19:45:17Z",
+  "updated_at": "2026-05-30T19:59:05Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1666,6 +1666,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "nasa", "apod", "astronomy", "media"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-nasa-apod"
+    },
+    {
+      "name": "animus-subject-nasa-exoplanets",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-nasa-exoplanets",
+      "latest_tag": "v0.1.0",
+      "description": "NASA Exoplanet Archive confirmed planets subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-nasa-exoplanets",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "nasa", "exoplanets", "astronomy", "space", "tap"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-nasa-exoplanets"
     },
     {
       "name": "animus-subject-nasa-neo-feed",
