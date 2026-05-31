@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-31T01:50:14Z",
+  "updated_at": "2026-05-31T02:01:29Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -990,6 +990,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "federal-register", "documents", "regulations", "public-records"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-federalregister-documents"
+    },
+    {
+      "name": "animus-subject-fdic-bank-failures",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-fdic-bank-failures",
+      "latest_tag": "v0.1.0",
+      "description": "FDIC BankFind bank failures subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-fdic-bank-failures",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "fdic", "bankfind", "bank-failures", "finance"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-fdic-bank-failures"
     },
     {
       "name": "animus-subject-figshare-articles",
