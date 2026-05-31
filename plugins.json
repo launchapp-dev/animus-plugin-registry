@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-31T01:36:20Z",
+  "updated_at": "2026-05-31T01:50:14Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -275,6 +275,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "asana", "tasks", "project-management", "issue-tracking"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-asana"
+    },
+    {
+      "name": "animus-subject-aviationweather-metars",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-aviationweather-metars",
+      "latest_tag": "v0.1.0",
+      "description": "AviationWeather.gov METAR observations subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-aviationweather-metars",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "aviationweather", "metar", "aviation", "weather"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-aviationweather-metars"
     },
     {
       "name": "animus-subject-azure-devops",
