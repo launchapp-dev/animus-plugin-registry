@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-31T00:17:58Z",
+  "updated_at": "2026-05-31T00:37:30Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -3382,6 +3382,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "vercel", "deployments", "paas", "deployment"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-vercel-deployments"
+    },
+    {
+      "name": "animus-subject-wayback-captures",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-wayback-captures",
+      "latest_tag": "v0.1.0",
+      "description": "Internet Archive Wayback Machine CDX capture subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-wayback-captures",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "wayback", "internet-archive", "cdx", "web-archives"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-wayback-captures"
     },
     {
       "name": "animus-subject-web-feed-items",
