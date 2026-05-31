@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-31T01:12:49Z",
+  "updated_at": "2026-05-31T01:24:18Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -1952,6 +1952,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "noaa", "ncei", "homr", "stations", "weather"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-noaa-homr-stations"
+    },
+    {
+      "name": "animus-subject-noaa-swpc-alerts",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-noaa-swpc-alerts",
+      "latest_tag": "v0.1.0",
+      "description": "NOAA SWPC alerts, watches, and warnings subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-noaa-swpc-alerts",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "noaa", "swpc", "space-weather", "alerts"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-noaa-swpc-alerts"
     },
     {
       "name": "animus-subject-nominatim-places",
