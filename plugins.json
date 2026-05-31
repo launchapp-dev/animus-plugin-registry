@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "registry_version": "0.2.0",
-  "updated_at": "2026-05-30T23:51:59Z",
+  "updated_at": "2026-05-31T00:04:20Z",
   "plugins": [
     {
       "name": "animus-provider-claude",
@@ -561,6 +561,19 @@
       "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
       "tags": ["subject", "cfpb", "consumer-complaints", "financial-services", "public-data", "government"],
       "install_hint": "animus plugin install launchapp-dev/animus-subject-cfpb-consumer-complaints"
+    },
+    {
+      "name": "animus-subject-cwe-weaknesses",
+      "kind": "subject_backend",
+      "repo": "launchapp-dev/animus-subject-cwe-weaknesses",
+      "latest_tag": "v0.1.0",
+      "description": "CWE weaknesses subject backend plugin for Animus",
+      "homepage": "https://github.com/launchapp-dev/animus-subject-cwe-weaknesses",
+      "license": "Elastic-2.0",
+      "stability": "alpha",
+      "platforms": ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu"],
+      "tags": ["subject", "cwe", "weaknesses", "security", "mitre"],
+      "install_hint": "animus plugin install launchapp-dev/animus-subject-cwe-weaknesses"
     },
     {
       "name": "animus-subject-cran-packages",
